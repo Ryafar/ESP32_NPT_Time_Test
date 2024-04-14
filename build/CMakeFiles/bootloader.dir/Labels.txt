@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+D:/Programmieren_ESP32/Code_Folder/ESP32_NTP_Time_Test/build/CMakeFiles/bootloader
+D:/Programmieren_ESP32/Code_Folder/ESP32_NTP_Time_Test/build/CMakeFiles/bootloader.rule
+D:/Programmieren_ESP32/Code_Folder/ESP32_NTP_Time_Test/build/CMakeFiles/bootloader-complete.rule
+D:/Programmieren_ESP32/Code_Folder/ESP32_NTP_Time_Test/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+D:/Programmieren_ESP32/Code_Folder/ESP32_NTP_Time_Test/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+D:/Programmieren_ESP32/Code_Folder/ESP32_NTP_Time_Test/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+D:/Programmieren_ESP32/Code_Folder/ESP32_NTP_Time_Test/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+D:/Programmieren_ESP32/Code_Folder/ESP32_NTP_Time_Test/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+D:/Programmieren_ESP32/Code_Folder/ESP32_NTP_Time_Test/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+D:/Programmieren_ESP32/Code_Folder/ESP32_NTP_Time_Test/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

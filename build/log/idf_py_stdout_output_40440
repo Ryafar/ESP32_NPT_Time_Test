@@ -1,0 +1,49 @@
+-- Existing sdkconfig 'D:/Programmieren_ESP32/Code_Folder/ESP32_NTP_Time_Test/sdkconfig' renamed to 'D:/Programmieren_ESP32/Code_Folder/ESP32_NTP_Time_Test/sdkconfig.old'.
+-- Found Git: D:/Programmieren_ESP32/ESP_IDF_Tools/tools/idf-git/2.39.2/cmd/git.exe (found version "2.39.2.windows.1") 
+-- The C compiler identification is GNU 13.2.0
+-- The CXX compiler identification is GNU 13.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: D:/Programmieren_ESP32/ESP_IDF_Tools/tools/riscv32-esp-elf/esp-13.2.0_20230928/riscv32-esp-elf/bin/riscv32-esp-elf-gcc.exe
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: D:/Programmieren_ESP32/ESP_IDF_Tools/tools/riscv32-esp-elf/esp-13.2.0_20230928/riscv32-esp-elf/bin/riscv32-esp-elf-gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: D:/Programmieren_ESP32/ESP_IDF_Tools/tools/riscv32-esp-elf/esp-13.2.0_20230928/riscv32-esp-elf/bin/riscv32-esp-elf-g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- git rev-parse returned 'fatal: not a git repository (or any of the parent directories): .git'
+-- Could not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32c3
+Processing 2 dependencies:
+[1/2] idf (5.2.0)
+[2/2] protocol_examples_common (*)
+-- Project sdkconfig file D:/Programmieren_ESP32/Code_Folder/ESP32_NTP_Time_Test/sdkconfig
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of time_t
+-- Check size of time_t - done
+-- Found Python3: d:/Programmieren_ESP32/ESP_IDF_Tools/python_env/idf5.2_py3.11_env/Scripts/python.exe (found version "3.11.2") found components: Interpreter 
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
+-- App "ESP32_NTP_Time_Test" version: 1
+-- Adding linker script D:/Programmieren_ESP32/Code_Folder/ESP32_NTP_Time_Test/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/esp_system/ld/esp32c3/sections.ld.in
+-- Adding linker script D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.ld
+-- Adding linker script D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.api.ld
+-- Adding linker script D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.libgcc.ld
+-- Adding linker script D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.newlib.ld
+-- Adding linker script D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.version.ld
+-- Adding linker script D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.eco3.ld
+-- Adding linker script D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/soc/esp32c3/ld/esp32c3.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_bootloader_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash nvs_sec_provider openthread partition_table protobuf-c protocol_examples_common protocomm pthread riscv sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant
+-- Component paths: D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/app_trace D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/app_update D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/bootloader D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/bootloader_support D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/bt D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/cmock D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/console D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/cxx D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/driver D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/efuse D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/esp-tls D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/esp_adc D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/esp_app_format D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/esp_bootloader_format D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/esp_coex D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/esp_common D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/esp_eth D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/esp_event D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/esp_gdbstub D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/esp_hid D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/esp_http_client D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/esp_http_server D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/esp_https_ota D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/esp_https_server D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/esp_hw_support D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/esp_lcd D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/esp_local_ctrl D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/esp_mm D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/esp_netif D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/esp_netif_stack D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/esp_partition D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/esp_phy D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/esp_pm D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/esp_psram D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/esp_ringbuf D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/esp_rom D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/esp_system D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/esp_timer D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/esp_wifi D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/espcoredump D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/esptool_py D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/fatfs D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/freertos D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/hal D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/heap D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/http_parser D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/idf_test D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/ieee802154 D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/json D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/log D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/lwip D:/Programmieren_ESP32/Code_Folder/ESP32_NTP_Time_Test/main D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/mbedtls D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/mqtt D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/newlib D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/nvs_flash D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/nvs_sec_provider D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/openthread D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/partition_table D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/protobuf-c D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/examples/common_components/protocol_examples_common D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/protocomm D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/pthread D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/riscv D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/sdmmc D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/soc D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/spi_flash D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/spiffs D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/tcp_transport D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/ulp D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/unity D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/usb D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/vfs D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/wear_levelling D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/wifi_provisioning D:/Programmieren_ESP32/ESP-IDF_Extention/v5.2/esp-idf/components/wpa_supplicant
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/Programmieren_ESP32/Code_Folder/ESP32_NTP_Time_Test/build
